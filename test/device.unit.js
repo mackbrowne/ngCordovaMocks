@@ -1,6 +1,6 @@
 describe('ngCordovaMocks', function() {
 	beforeEach(function() {
-		module('ngCordovaMocks');
+		module('ngCordova');
 	});
 
 	describe('cordovaDevice', function () {

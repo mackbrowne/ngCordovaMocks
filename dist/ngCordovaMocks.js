@@ -16,7 +16,7 @@
 */
 
 'use strict';
-var ngCordovaMocks = angular.module('ngCordovaMocks', []);
+var ngCordovaMocks = angular.module('ngCordova', []);
 ngCordovaMocks.factory('$cordovaBackgroundGeolocation', ['$interval', '$q',
 	function ($interval, $q) {
 		var throwsError = false;

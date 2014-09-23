@@ -8,7 +8,7 @@
 module.exports = function (grunt) {
     grunt.initConfig({
         moduleInit: '\n\'use strict\';\n' +
-                    'var ngCordovaMocks = angular.module(\'ngCordovaMocks\', []);',
+                    'var ngCordovaMocks = angular.module(\'ngCordova\', []);',
         banner: '/**\n * Copyright (c) <%= grunt.template.today("yyyy") %> Ecofic LLC. All rights reserved.\n' +
                 ' * http://www.ecofic.com\n\n' +
                 ' * Licensed under the Apache License, Version 2.0 (the "License");\n' +
